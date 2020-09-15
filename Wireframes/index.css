@@ -94,9 +94,7 @@ border-spacing: 0;
 }
 
 /* csss reset above */
-.header{
-   box-sizing:border-box
-}
+
 html,body {
    height:100%;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -109,11 +107,15 @@ p{
    line-height: 1.4;
 }
 .section1{
+   width: fit-content;
    margin-bottom: 20px;
    border-bottom: 1px solid purple;
 }
 .container{
-   widows: 800px;
+   widows: 60%;
+   align-self: center;
+   border: dashed royalblue;
+   padding: 20px;
    margin: 0 auto;
 }
 .boxes{
@@ -130,7 +132,7 @@ header{
 }
 
 header nav {
-   width:50%;
+   width:25%;
    padding:20px 2%;
    font-size:14px;
 
@@ -141,3 +143,14 @@ footer{
    width: 100%;
    font-size: small;
 }
+@media(max-width: 800px;)
+{
+background: purple;
+}
+
+@media(max-width: 500px;){
+background: blue;
+}
+
+
+
